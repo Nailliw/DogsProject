@@ -1,18 +1,26 @@
 import React from "react";
+import { Link, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import { Route, Switch } from "react-router-dom";
-import Home from "./Components/Home";
-import Login from "./Components/Login";
+import Header from "./Components/Header";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login/Login";
+import LoginCreate from "./Pages/Login/LoginCreate/LoginCreate";
 
 const App = () => {
   return (
     <div className="App-header">
       <Header />
       <Switch>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route path="/login">
+          <Login />
+        </Route>
+
+
       </Switch>
       <Footer />
     </div>
