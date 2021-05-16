@@ -1,10 +1,3 @@
-# Application`s Link
-## Repository in GITHUB
-https://github.com/Nailliw/DogsProject
-
-## Deploy with Vercel
-https://dogs-project.vercel.app/
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
