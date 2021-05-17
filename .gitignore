@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 .gitignore
+/.vscode
+/.yarn
 
 # testing
 /coverage
